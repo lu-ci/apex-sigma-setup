@@ -34,6 +34,7 @@ python3.6 -m venv .venv
 echo "Installing PIP modules..."
 source ".venv/bin/activate"
 pip install -Ur requirements.txt
+pip install -Ur requirements-linux.txt
 echo "Installation complete."
 echo "Please go to /srv/apex-sigma-core and run Sigma using run.sh"
 echo "Have fun~"
