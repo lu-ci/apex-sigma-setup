@@ -36,8 +36,7 @@ echo "Starting Apex Sigma installation."
 
 echo "Installing required APT packages..."
 system_deps=(
-    git ffmpeg build-essential libsystemd-journal-dev
-    checkinstall libsystemd-daemon-dev libsystemd-dev
+    git ffmpeg build-essential checkinstall libsystemd-dev
     libreadline-gplv2-dev libncursesw5-dev libssl-dev
     libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev
 )
