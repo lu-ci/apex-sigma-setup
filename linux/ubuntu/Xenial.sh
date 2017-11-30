@@ -40,7 +40,7 @@ system_deps=(
     libreadline-gplv2-dev libncursesw5-dev libssl-dev
     libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev
 )
-(sudo apt-get update -qq && sudo apt-get -qq install -y "${system_deps[*]}") \
+(sudo apt-get update -qq && sudo apt-get -qq install -y ${system_deps[*]}) \
 || abort "Failed to install system dependencies"
 
 echo "Installing Python 3.6.3..."
